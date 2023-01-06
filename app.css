@@ -1,0 +1,45 @@
+:root{
+    --dark: rgba(0,0,0, .9);
+    --darker: #1f2937;
+    --darkest: #111827;
+    --gray: #6b7280;
+    --light: #eee;
+    --pink: #8b2121;
+    --purple: #fc280c;
+    --green : #1c691e;
+    --lightgreen: #60df64;
+
+
+   }
+   * {
+    box-sizing: border-box;
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+   }
+
+   body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--dark);
+    color:  #fff  } 
+ header{
+    padding : 2rem  1rem;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+ }
+ header h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: var(--gray);
+    margin-bottom: 1rem; 
+
+ }
+ #new-task-form {
+    display: flex;
+}
+.btn {
+    color:var(--purple);
+}
